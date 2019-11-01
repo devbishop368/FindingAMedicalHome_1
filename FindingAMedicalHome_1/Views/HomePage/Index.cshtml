@@ -1,0 +1,23 @@
+﻿@*@{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }*@
+
+@{
+    ViewBag.Title = "Admin Login";
+}
+
+<center><h2>Admin Login</h2></center>
+
+
+<p class="">Enter your username and password to login.</p>
+<form action='./logon' method='post'>
+    <label><p class="">Username:</p> <input type='text' name='username' required></label><br /><br />
+    <label><p class="">Password:</p> <input type='password' name='password' required></label><br /><br />
+    <input class="" type='reset' value='Clear'>&nbsp;&nbsp;<input class="" type='submit' value='Login'>
+    <p><br /></p><p><br /></p>
+    
+</form>
+<br /><br />
+
+
+	
